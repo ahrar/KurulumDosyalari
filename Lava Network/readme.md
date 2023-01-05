@@ -26,6 +26,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 ```
 ## Go Kurulum
+
 ```wget https://go.dev/dl/go1.19.linux-amd64.tar.gz \
 && sudo tar -xvf go1.19.linux-amd64.tar.gz && sudo mv go /usr/local \
 && echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile \
